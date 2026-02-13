@@ -3,6 +3,7 @@
 An AI-powered customer enquiry response system built using Ollama (llama3) and Streamlit.
 This application reads customer queries, understands intent, extracts structured information, and generates safe, human-like responses — all running fully locally using open-source LLMs.
 
+
 🚀 Features
 
 ✅ Intent Detection
@@ -20,6 +21,7 @@ This application reads customer queries, understands intent, extracts structured
 ✅ Fully Local LLM (No OpenAI API required)
 
 ✅ Clean Streamlit UI
+
 
 🧠 Architecture Overview
 
@@ -42,6 +44,7 @@ All LLM reasoning is performed locally using Ollama (llama3).
 The assistant response is added to session memory and displayed.
 
 This modular design improves interpretability, safety, and extensibility.
+
 
 🛠️ Tech Stack
 
@@ -69,6 +72,7 @@ Avoid diagnosing without sufficient information
 Ask clarifying follow-up questions
 
 This makes it suitable for customer-support style automation workflows.
+
 
 🎯 Why This Project Matters
 
