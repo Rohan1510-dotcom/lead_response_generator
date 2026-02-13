@@ -1,0 +1,24 @@
++----------------------+
+|      User (UI)       |
+|     Streamlit App    |
++----------+-----------+
+           |
+           v
++----------------------+
+| Conversation Manager |
+| (Session Memory)     |
++----------+-----------+
+           |
+           v
++----------------------+
+| AI Workflow Modules  |
+| - Intent Detection   |
+| - Info Extraction    |
+| - Response Generator |
++----------+-----------+
+           |
+           v
++----------------------+
+|   Ollama (llama3)    |
+|  Local LLM Engine    |
++----------------------+
